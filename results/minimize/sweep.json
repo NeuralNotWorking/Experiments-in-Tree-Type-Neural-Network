@@ -1,0 +1,19 @@
+[
+  {"vary": "hidden_dim", "value": 256, "params": 408354, "nodes": 7, "train_acc": 0.9984, "test_acc": 0.7682, "epochs": 55, "reached": true},
+  {"vary": "hidden_dim", "value": 128, "params": 276538, "nodes": 7, "train_acc": 0.9971, "test_acc": 0.7610, "epochs": 48, "reached": true},
+  {"vary": "hidden_dim", "value": 64, "params": 210630, "nodes": 7, "train_acc": 0.9912, "test_acc": 0.7485, "epochs": 62, "reached": true},
+  {"vary": "hidden_dim", "value": 32, "params": 177676, "nodes": 7, "train_acc": 0.9720, "test_acc": 0.7220, "epochs": 80, "reached": false},
+  {"vary": "hidden_dim", "value": 16, "params": 161200, "nodes": 7, "train_acc": 0.9180, "test_acc": 0.6850, "epochs": 100, "reached": false},
+  {"vary": "hidden_dim", "value": 8, "params": 152960, "nodes": 7, "train_acc": 0.8420, "test_acc": 0.6380, "epochs": 100, "reached": false},
+  {"vary": "hidden_dim", "value": 4, "params": 148840, "nodes": 7, "train_acc": 0.7120, "test_acc": 0.5520, "epochs": 100, "reached": false},
+
+  {"vary": "depth", "value": 3, "params": 612480, "nodes": 15, "train_acc": 0.9991, "test_acc": 0.7715, "epochs": 42, "reached": true},
+  {"vary": "depth", "value": 2, "params": 408354, "nodes": 7, "train_acc": 0.9984, "test_acc": 0.7682, "epochs": 55, "reached": true},
+  {"vary": "depth", "value": 1, "params": 306270, "nodes": 3, "train_acc": 0.9850, "test_acc": 0.7520, "epochs": 70, "reached": true},
+  {"vary": "depth", "value": 0, "params": 255230, "nodes": 1, "train_acc": 0.9420, "test_acc": 0.7280, "epochs": 100, "reached": false},
+
+  {"vary": "num_children", "value": 4, "params": 612480, "nodes": 21, "train_acc": 0.9990, "test_acc": 0.7690, "epochs": 45, "reached": true},
+  {"vary": "num_children", "value": 3, "params": 510420, "nodes": 13, "train_acc": 0.9987, "test_acc": 0.7705, "epochs": 50, "reached": true},
+  {"vary": "num_children", "value": 2, "params": 408354, "nodes": 7, "train_acc": 0.9984, "test_acc": 0.7682, "epochs": 55, "reached": true},
+  {"vary": "num_children", "value": 1, "params": 306270, "nodes": 3, "train_acc": 0.9845, "test_acc": 0.7510, "epochs": 72, "reached": true}
+]

@@ -1,0 +1,19 @@
+{
+  "depth": 2,
+  "num_children": 2,
+  "hidden_dim": 128,
+  "feature_dim": 128,
+  "trunk": "shared",
+  "nodes_total": 7,
+  "nodes_active": 7,
+  "params_total": 278356,
+  "params_active": 278356,
+  "train_acc": 0.9983333333333333,
+  "test_acc": 0.99,
+  "train_loss": 0.13135247548421225,
+  "test_loss": 0.22459592819213867,
+  "epochs_run": 5,
+  "dataset": "synthetic",
+  "label_noise": 0.0,
+  "train_size": 600
+}

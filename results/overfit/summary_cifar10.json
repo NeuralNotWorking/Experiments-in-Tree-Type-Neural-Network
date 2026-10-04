@@ -1,0 +1,19 @@
+{
+  "depth": 2,
+  "num_children": 2,
+  "hidden_dim": 256,
+  "feature_dim": 128,
+  "trunk": "shared",
+  "nodes_total": 7,
+  "nodes_active": 7,
+  "params_total": 408354,
+  "params_active": 408354,
+  "train_acc": 0.9984,
+  "test_acc": 0.7682,
+  "train_loss": 0.0124,
+  "test_loss": 1.412,
+  "epochs_run": 55,
+  "dataset": "cifar10",
+  "label_noise": 0.0,
+  "train_size": 50000
+}

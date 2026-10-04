@@ -1,0 +1,21 @@
+Receptive-field / saliency analysis (from run_receptive_fields.py on overfit CIFAR-10 checkpoint)
+
+Node path            depth  saliency-concentration(top10%)  max class-gap of mean gate
+root                    0                           0.142                      0.085
+root/0                  1                           0.218                      0.162
+root/0/0                2                           0.285                      0.241
+root/0/1                2                           0.271                      0.198
+root/1                  1                           0.205                      0.148
+root/1/0                2                           0.312                      0.275
+root/1/1                2                           0.268                      0.220
+
+mean concentration per depth (uniform map = 0.10):
+  depth 0: 0.142 (+-0.000, 1 nodes)
+  depth 1: 0.211 (+-0.009, 2 nodes)
+  depth 2: 0.284 (+-0.020, 4 nodes)
+
+Observations:
+- Saliency becomes more spatially concentrated with depth (leaves focus on smaller regions).
+- Deeper nodes show larger between-class differences in mean gate activation → class specialisation.
+- Root is more global / diffuse; leaves act as class- or part-specialised detectors.
+- Shared trunk still allows hierarchical routing: gates route different spatial patterns to different subtrees.

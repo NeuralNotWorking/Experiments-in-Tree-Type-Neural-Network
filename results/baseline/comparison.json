@@ -1,0 +1,32 @@
+[
+  {
+    "model": "tree",
+    "params": 408354,
+    "train_acc": 0.9594,
+    "test_acc": 0.7798,
+    "best_test_acc": 0.7810,
+    "train_loss": 0.1153,
+    "test_loss": 0.9262,
+    "epochs_run": 20
+  },
+  {
+    "model": "cnn+mlp-head",
+    "params": 409812,
+    "train_acc": 0.9421,
+    "test_acc": 0.7685,
+    "best_test_acc": 0.7712,
+    "train_loss": 0.1684,
+    "test_loss": 0.9820,
+    "epochs_run": 20
+  },
+  {
+    "model": "mlp",
+    "params": 407890,
+    "train_acc": 0.7125,
+    "test_acc": 0.5210,
+    "best_test_acc": 0.5380,
+    "train_loss": 0.8420,
+    "test_loss": 1.4850,
+    "epochs_run": 20
+  }
+]

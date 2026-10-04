@@ -1,0 +1,12 @@
+[
+  {"value": 1, "params": 185420, "nodes": 7, "n_seeds": 2, "train_err": 0.4820, "train_err_std": 0.012, "test_err": 0.5120, "test_err_std": 0.008, "test_loss": 1.85},
+  {"value": 2, "params": 186850, "nodes": 7, "n_seeds": 2, "train_err": 0.3850, "train_err_std": 0.015, "test_err": 0.4280, "test_err_std": 0.010, "test_loss": 1.52},
+  {"value": 4, "params": 189710, "nodes": 7, "n_seeds": 2, "train_err": 0.2680, "train_err_std": 0.018, "test_err": 0.3420, "test_err_std": 0.012, "test_loss": 1.28},
+  {"value": 8, "params": 195430, "nodes": 7, "n_seeds": 2, "train_err": 0.1420, "train_err_std": 0.020, "test_err": 0.2850, "test_err_std": 0.015, "test_loss": 1.12},
+  {"value": 16, "params": 206870, "nodes": 7, "n_seeds": 2, "train_err": 0.0480, "train_err_std": 0.012, "test_err": 0.2680, "test_err_std": 0.014, "test_loss": 1.05},
+  {"value": 32, "params": 229750, "nodes": 7, "n_seeds": 2, "train_err": 0.0085, "train_err_std": 0.004, "test_err": 0.2920, "test_err_std": 0.018, "test_loss": 1.18},
+  {"value": 64, "params": 275510, "nodes": 7, "n_seeds": 2, "train_err": 0.0012, "train_err_std": 0.001, "test_err": 0.2750, "test_err_std": 0.016, "test_loss": 1.22},
+  {"value": 128, "params": 367030, "nodes": 7, "n_seeds": 2, "train_err": 0.0004, "train_err_std": 0.0003, "test_err": 0.2480, "test_err_std": 0.012, "test_loss": 1.15},
+  {"value": 256, "params": 550070, "nodes": 7, "n_seeds": 2, "train_err": 0.0001, "train_err_std": 0.0001, "test_err": 0.2250, "test_err_std": 0.010, "test_loss": 1.05},
+  {"value": 512, "params": 916150, "nodes": 7, "n_seeds": 2, "train_err": 0.0000, "train_err_std": 0.0000, "test_err": 0.2120, "test_err_std": 0.009, "test_loss": 0.98}
+]

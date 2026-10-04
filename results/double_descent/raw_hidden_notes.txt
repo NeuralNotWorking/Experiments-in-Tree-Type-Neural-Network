@@ -1,0 +1,11 @@
+Double descent sweep (CIFAR-10, train-subset=10000, label-noise=0.15, epochs=100, vary=hidden)
+Settings match run_double_descent.py recommendation for visible interpolation peak.
+
+Interpolation threshold (first size with train_err <= 0.01): ~229750 params (hidden=32)
+
+Peak test error near interpolation: hidden=32 (params ~230k), test_err ≈ 0.292
+Then clear decrease: hidden=512 → test_err ≈ 0.212
+
+rise ≈ 0.024, later drop ≈ 0.080; seed-std ≈ 0.015
+→ rise and drop both > seed noise: plausible mild double descent under label noise.
+Without label noise the peak is weaker / almost absent (classic modern observation).
